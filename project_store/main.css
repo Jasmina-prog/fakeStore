@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: 70%;
+}
+
+nav {
+  background-color: black;
+  width: 100%;
+  padding: 15px 50px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+.filter-btn {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin-top: 30px;
+}
+.filter-btn a {
+  padding: 5px 14px;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  font-weight: 600;
+}
+.filter-btn a:hover {
+  background-color: white;
+  color: black;
+}
+
+.card-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  padding: 20px 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+.card-container .card {
+  width: 20%;
+  height: 220px;
+  border-radius: 5px;
+  border: 1px red solid;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 5px black;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 0.8rem;
+  gap: 15px;
+}
+
+.card p:nth-of-type(1) {
+  overflow: hidden;
+  width: 100%;
+  height: 15px;
+  font-size: 13px;
+}
+.card p:nth-of-type(2) {
+  font-size: 13px;
+  font-weight: 600;
+}
+.card button {
+  padding: 2px 15px;
+  font-size: 12px;
+}
+
+.card img {
+  height: 50%;
+}
+
+.card img:hover {
+  transform: scale(1.4, 1.2);
+  transition-duration: 2s;
+}
+
+@media (max-width: 800px) {
+  .card-container {
+    flex-wrap: wrap;
+  }
+  .card-container .card {
+    width: 30%;
+  }
+}
+@media (max-width: 650px) {
+  .card-container {
+    flex-wrap: wrap;
+  }
+  .card-container .card {
+    width: 40%;
+  }
+}
+@media (max-width: 650px) {
+  .card-container {
+    flex-wrap: wrap;
+  }
+  .card-container .card {
+    width: 45%;
+    height: 230px;
+  }
+}
+.card-container2 {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  padding: 20px 0;
+  background-color: lightblue;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+.card-container2 .card {
+  width: 20%;
+  height: 220px;
+  border-radius: 5px;
+  border: 1px red solid;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 5px black;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 0.8rem;
+  gap: 15px;
+}
+
+/*# sourceMappingURL=main.css.map */
